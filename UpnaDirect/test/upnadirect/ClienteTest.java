@@ -27,7 +27,7 @@ public class ClienteTest {
     }
     
     @Test
-    public void testValidarCliente_edad_incorrecta1() {
+    public void testValidarCliente_edad_NOK() {
         Vista vista = new Vista();
         vista.setAnoNacimiento(1800);
         Presentador presentador = new Presentador(vista);
